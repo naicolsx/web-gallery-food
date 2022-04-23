@@ -1,8 +1,48 @@
-* { 
-    font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
-main { 
-    margin: 0 auto;
-    max-width: 1200px;
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr minmax(100px, 3fr);
+    border-bottom: 1px solid #ddd;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-info--title {
+  color: #333;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.hero-info--subtitle {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+
+.hero-info--button {
+  background-color: #fb8c00;
+  border: none;
+  border-radius: 20px;
+  color: #333;
+  font-weight: 900;
+  padding: 12px 24px;
+}
+
+.hero-image {
+  object-fit: contain;
+  width: 100%;
 }
