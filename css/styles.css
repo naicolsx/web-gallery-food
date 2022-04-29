@@ -84,6 +84,7 @@ main {
 
 .menu-title {
   color: #333;
+  
   font-size: 2rem;
   font-weight: bolder;
   margin-bottom: 50px;
@@ -93,7 +94,7 @@ main {
 .menu-grid {
   display: grid;
   gap: 25px;
-  grid-template-columns: repeat(auto-fit, 220px);
+  grid-template-columns: repeat(auto-fit, 150px);
   justify-content: center;
 }
 
